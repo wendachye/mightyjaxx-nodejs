@@ -1,23 +1,23 @@
-# Getting Started with Fastify-CLI [Fastify-CLI](https://www.npmjs.com/package/fastify-cli)
+# Getting Started
 This project was bootstrapped with Fastify-CLI.
 
-## Available Scripts
+Please make sure MongoDB is install and running on local 
+For mac os - https://www.mongodb.com/docs/manual/tutorial/install-mongodb-on-os-x/
+For windows - https://www.mongodb.com/docs/manual/tutorial/install-mongodb-on-windows/
 
-In the project directory, you can run:
+## Installation
 
-### `npm run dev`
+```sh
+$ yarn install
+# or
+$ npm install
+```
 
-To start the app in dev mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+## Usage
 
-### `npm start`
-
-For production mode
-
-### `npm run test`
-
-Run the test cases.
-
-## Learn More
-
-To learn Fastify, check out the [Fastify documentation](https://www.fastify.io/docs/latest/).
+```sh
+$ yarn start
+# or
+$ npm run start
+# It will running on localhost:3001
+```
